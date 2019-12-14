@@ -1,0 +1,203 @@
+body {
+    height:100vh;
+}
+
+.container-fluid {
+    padding-left:0px;
+    padding-right:0px;
+
+}
+
+#login-form-views {
+    height:100vh;
+    background-size:cover;
+    background-image:url('../images/login-background.jpeg');
+
+}
+
+
+#form-box {
+    background:rgba(255,255,255,0.9);
+    margin-top:15%;
+    height: 210px;
+}
+
+
+#form-action {
+    /*margin-bottom:25px; */
+    margin-bottom: 60px;
+    margin-top: 20px;
+    background-color: #00c7ac;
+    border: #00cdac;
+    color: #0a2b42;
+
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+}
+
+#form-back {
+    /*margin-bottom:25px; */
+    margin-bottom: 20px;
+    background-color: #00c7ac;
+    border: #00cdac;
+    color: #0a2b42;
+    position: relative;
+    right: 40px;
+    padding: 5px;
+
+}
+
+#form-result {
+    padding-top:5px;
+    padding-bottom:5px;
+    color:green;
+    text-align:center;
+    font-weight:bold;
+}
+
+.forget-password a{
+    position: relative;
+    right: 60px;
+    top: 40px;
+    border: #0a2b42 !important;
+    color: #00c7ac !important;
+    z-index: 2;
+}
+
+input.form-control {
+    position: relative;
+    top: 20px;
+}
+
+/* Hover login img */
+.hovereffect-10 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    z-index: 1;
+}
+.hovereffect-10 .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+}
+.hovereffect-10 img {
+    display: block;
+    position: relative;
+}
+.hovereffect-10 h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+.hovereffect-10:hover h2 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+    transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+}
+.hovereffect-10 a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+}
+.hovereffect-10 a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+.hovereffect-10 h2, .hovereffect-10 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.hovereffect-10 .overlay:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 60%;
+    border: 2px solid #fff;
+    content: '';
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+    transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+}
+.hovereffect-10 p {
+    width: 20%;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 2;
+}
+.hovereffect-10 p a {
+    color: #fff;
+}
+.hovereffect-10 p a:hover, .hovereffect-10 p a:focus {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.hovereffect-10 a i {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    padding: 0px 5px;
+}
+.hovereffect-10 p a:first-child i {
+    -webkit-transform: translate3d(-60px, -60px, 0);
+    transform: translate3d(-60px, -60px, 0);
+}
+.hovereffect-10 p a:nth-child(2) i {
+    -webkit-transform: translate3d(60px, -60px, 0);
+    transform: translate3d(60px, -60px, 0);
+}
+.hovereffect-10 p a:nth-child(3) i {
+    -webkit-transform: translate3d(-60px, 60px, 0);
+    transform: translate3d(-60px, 60px, 0);
+}
+.hovereffect-10 p a:nth-child(4) i {
+    -webkit-transform: translate3d(60px, 60px, 0);
+    transform: translate3d(60px, 60px, 0);
+}
+.hovereffect-10:hover .overlay:before {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -135deg) scale3d(1, 1, 1);
+    transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -135deg) scale3d(1, 1, 1);
+}
+.hovereffect-10:hover p i:empty {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}

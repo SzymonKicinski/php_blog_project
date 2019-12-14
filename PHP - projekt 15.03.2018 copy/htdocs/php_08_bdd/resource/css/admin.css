@@ -1,0 +1,126 @@
+body {
+    height:100vh;
+}
+
+#footer-content {
+    background:#23282d;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:center;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#top-navigation {
+    text-align:right;
+    background:#23282d;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    vertical-align: middle;
+    color:#fff;
+}
+
+#top-navigation a {
+    color:#fff;
+}
+
+#top-navigation p {
+    display: inline-block;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#top-navigation p:hover {
+    background:yellow;
+}
+
+#top-navigation p .fa {
+    margin-right:5px;
+}
+
+#admin-menu {
+    padding-left:0px;
+    padding-right:0px;
+    background:#23282d;
+    height:calc(100vh - 70px);
+}
+
+#admin-menu-list a {
+    color:#fff;
+}
+
+#admin-menu-list {
+    padding-left:15px;
+    list-style-type:none;
+}
+
+#admin-menu-list li {
+    font-size:16px;
+    color:#fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    cursor:pointer;
+}
+
+#admin-menu-list a:hover {
+    text-decoration:none;
+}
+
+#admin-menu-logo {
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.dropdown {
+    display:none;
+}
+
+#admin-menu-list .dropdown {
+    padding-left:5px;
+    list-style-type:none;
+}
+
+.menu-dropdown {
+    color:#fff;
+}
+
+#dashboard {
+    padding:25px;
+    background:#EFEDED;
+    height:calc(100vh - 70px);
+    overflow-y:scroll;
+}
+
+#middle-content {
+}
+
+.single-form-element {
+    margin-top:15px;
+    margin-bottom:15px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.page-title {
+    font-size:22px;
+}
+
+.single-page-box {
+    padding-left:0px;
+    padding-right:0px;
+    border:2px solid #EFEDED;
+    border-radius:5px;
+    padding:10px;
+    margin-bottom:10px;
+}
